@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>se.liu.ida.keski</groupId>
+  <artifactId>stringappender</artifactId>
+  <version>0.0.1</version>
+  <packaging>jar</packaging>
+
+  <!-- Project Meta Data -->
+  <name>stringappender</name>
+  <description>This is a dummy project used for getting familiar with publishing libraries using maven central .</description>
+  <url>http://github.com/keski/string-appender</url>
+
+  <!-- License -->
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <!-- Developer Information -->
+  <developers>
+    <developer>
+      <name>Robin Keskisärkkä</name>
+      <email>robin.keskisarkka@liu.se</email>
+      <organization>Linköping University</organization>
+      <organizationUrl>https://liu.se/</organizationUrl>
+    </developer>
+  </developers>
+
+  <!-- SCM (Source Code Management) -->
+  <scm>
+    <connection>scm:git:git://github.com/keski/string-appender.git</connection>
+    <developerConnection>scm:git:ssh://github.com:keski/string-appender.git</developerConnection>
+    <url>http://github.com/keski/string-appender</url>
+  </scm>
+
+  <!-- Properties -->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target> -->
+  </properties>
+
+</project>
